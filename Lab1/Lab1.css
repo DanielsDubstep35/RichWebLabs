@@ -8,33 +8,42 @@
 
 .box-one {
     /* I can add a padding to the content, adding background to the element (and, consequently, more space around it) */
-    padding: 0em;
+    padding: 0.2em;
     background-color: #EB5757;
 
     /* the border goes around the padding */
-    border: 0em solid #27AE60;
+    border: 8px solid #000000;
+    border-radius: 50px;
 
     /* the margin is added to increase the space between two elements as it is outside the border. */
-    margin: 0.5em;
+    margin: 1em;
+
+    text-align: center;
+    font-size: 30px;
 }
 
 .box-two {
 
-    padding: 0.1em;
+    padding: 0.2em;
     background-color: #2D9CDB;
-    border: 0 solid #27AE60;
+    border: 8px solid #000000;
+    border-radius: 50px;
 
     /* Do not forget the behaviour known as margin collapsing. When two elements have two different margins, they will be separated by the highest one.  */
-    margin: 0em;
+    margin: 1em;
+
+    text-align: center;
+    font-size: 30px;
 
 }
 
 .box-three {
-    padding: 0.5em;
+    padding: 0.2em;
     background-color: #008000;
     border: 8px solid #000000;
     border-radius: 50px;
     border-color: #000000;
     margin: 1em;
     font-size: 30px;
+    text-align: center;
 }
