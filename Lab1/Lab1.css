@@ -47,3 +47,26 @@
     font-size: 30px;
     text-align: center;
 }
+
+.box-four {
+    padding: 0.2em;
+    background-color: #FFFF00;
+    border: 8px solid #000000;
+    border-radius: 50px;
+    border-color: #000000;
+    margin: 1em;
+    font-size: 30px;
+    text-align: center;
+}
+
+.box-five {
+    padding: 0.2em;
+    background-color: #301934;
+    border: 8px solid #000000;
+    border-radius: 50px;
+    border-color: #000000;
+    margin: 1em;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
