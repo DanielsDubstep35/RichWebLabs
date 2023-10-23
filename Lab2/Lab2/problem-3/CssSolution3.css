@@ -1,0 +1,148 @@
+#TopBar {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px;
+    justify-content: space-between;
+
+}
+
+#TopBarSearch {
+    width: 70%;
+    padding: 12px;
+}
+
+#TopBarButton {
+    width: 20%;
+    padding: 12px;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 16px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#TopBarButton:hover {
+    background-color: rgb(232, 232, 232);
+}
+
+#UserInformation {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    justify-content: space-between;
+}
+
+#UserProfileHolder {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#UserProfileTitle {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#UserProfile {
+    display: block;
+    border: solid 1px black;
+}
+
+#UserProfileImageHolder {
+    display: flex;
+    margin: 16px;
+    border: solid 1px black;
+    border-radius: 12px;
+}
+
+#UserProfileImage {
+    margin: auto;
+    width: 90%;
+    height: 200px;
+}
+
+#UserProfileName {
+    font-size: 16px;
+    font-weight: bold;
+    border-top: 1px solid black;
+    padding: 16px;
+}
+
+#UserProfileUsername {
+    font-size: 16px;
+    font-weight: bold;
+    border-top: 1px solid black;
+    padding: 16px;
+}
+
+#UserProfileEmail {
+    font-size: 16px;
+    font-weight: bold;
+    border-top: 1px solid black;
+    padding: 16px;
+}
+
+#UserProfileLocation {
+    font-size: 16px;
+    font-weight: bold;
+    border-top: 1px solid black;
+    padding: 16px;
+}
+
+#UserProfileNumberOfGists {
+    font-size: 16px;
+    font-weight: bold;
+    border-top: 1px solid black;
+    padding: 16px;
+}
+
+#UserRepositoriesHolder {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#UserRepositoryTitle {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#UserRepositories {
+    display: block;
+    border: solid 1px black;
+}
+
+#ScrollableRepositoriesHolder {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: 497px;
+    min-height: 497px;
+}
+
+#Repository {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+}
+
+#UserRepositoryName {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px;
+    padding-bottom: 16px;
+}
+
+#UserRepositoryDescription {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px;
+}

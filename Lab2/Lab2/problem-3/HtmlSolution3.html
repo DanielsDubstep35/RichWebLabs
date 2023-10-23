@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="CssSolution3.css">
+    <script src="JsSolution3.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhoneDirectory</title>
+</head>
+
+<body>
+    <div id="TopBar">
+        <input type="text" id="TopBarSearch" placeholder="Username" size="256" maxlength="256" minlength="1"/>
+        <button id="TopBarButton" onclick="searchUser()">
+            Search
+        </button>
+    </div>
+    <div id="UserInformation">
+        <div id="UserProfileHolder">
+            <div id="UserProfileTitle">
+                User Profile
+            </div>
+            <div id="UserProfile">
+                <div>
+                    <div id="UserProfileImageHolder">
+                        <img id="UserProfileImage" alt="GithubImage" object-fit: cover; width="200px" height="100px" src="https://149611589.v2.pressablecdn.com/wp-content/uploads/2020/09/github-logo-black-on-white.png">
+                    </div>
+                    <div id="UserProfileName">TestName</div>
+                    <div id="UserProfileUsername">TestUsername</div>
+                    <div id="UserProfileEmail">TestEmail</div>
+                    <div id="UserProfileLocation">TestLocation</div>
+                    <div id="UserProfileNumberOfGists">TestNoOfGists</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="UserRepositoriesHolder">
+            <div id="UserRepositoryTitle">
+                User Repos
+            </div>
+            <div id="UserRepositories">
+                <div id="ScrollableRepositoriesHolder">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

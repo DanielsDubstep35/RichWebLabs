@@ -1,0 +1,118 @@
+#WebPageTitle {
+    padding: 16px;
+    justify-content: center;
+    display: flex;
+}
+
+#AppBody {
+    padding-inline: 15%;
+}
+
+#ContactInfo {
+    display: flex;
+    justify-content: center;
+    padding-inline: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    background-color: #A9D5E0;
+    border: 2px solid #457786;
+    border-radius: 12px;
+    width: 500px;
+}
+
+#inputtedName {
+    width: 130px;
+    padding: 4px;
+    margin: 4px;
+}
+
+#inputtedNumber {
+    width: 130px;
+    padding: 4px;
+    margin: 4px;
+}
+
+#inputtedEmail {
+    width: 130px;
+    padding: 4px;
+    margin: 4px;
+}
+
+#SubmitButton {
+    padding: 4px;
+    margin: 4px;
+}
+
+#SearchBar {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    margin: 8px;
+}
+
+#mobileInput {
+    margin: 8px;
+    padding: 8px;
+    height: 8px;
+}
+
+#ContactSummary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#SearchGrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+#TableTitle {
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+}
+
+#noResult {
+    display: none;
+    justify-content: center;
+    margin: auto;
+}
+
+#NameSorter {
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+#NameSorter:hover {
+    background-color: #e1e1e1;
+}
+
+#NameSorter:active {
+    background-color: #b2b2b2;
+}
+
+td, th {
+    border: 1px solid #777;
+    padding-left: 8px;
+    padding-right: 74px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    display: table-cell;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+    background: #eee;
+}
+caption {
+    font-size: 0.8rem;
+}

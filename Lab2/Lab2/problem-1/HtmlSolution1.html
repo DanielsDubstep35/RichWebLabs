@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="CssSolution1.css">
+    <script src="JsSolution1.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhoneDirectory</title>
+</head>
+
+<body id="AppBody">
+    <div>
+        <h1 id="WebPageTitle">Phone Directory</h1>
+    </div>
+    <div id="ErrorHolder">
+
+    </div>
+    <div id="ContactInfo" >
+        <input oninput="checkName()" type="text" id="inputtedName" placeholder="Contact Name" required minlength="0" maxlength="20" size="20"/>
+        <input oninput="checkPhoneNumber()" type="text" id="inputtedNumber" placeholder="Mobile Number" required minlength="10" maxlength="10" size="10" />
+        <input oninput="checkEmail()" type="email" id="inputtedEmail" placeholder="Email" required minlength="0" maxlength="40" size="40" />
+        <!--  <input type="submit" id="Submit"> -->
+        <button id="SubmitButton" onclick="AddContact()">Add Contact</button>
+    </div>
+    <div id="SearchGrid">
+        <p>Search contact by Mobile No:</p>
+        <search></search>
+        <input type="text" onkeyup="searchQuery()" id="SearchBar" required minlength="10" maxlength="10" size="10" />
+    </div>
+    <div>
+        <h3 id="TableTitle">Contacts Summary</h3>
+    </div>
+    <div id="ContactSummary">
+        <div id="noResult">No Results Found!</div>
+        <table id="myTable">
+            <thead>
+                <th onclick="sortNameAscDesc()" id="NameSorter">Name</th>
+                <th>Mobile No</th>
+                <th>Email</th>
+            </thead>
+            <tbody id="TableBody">
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
