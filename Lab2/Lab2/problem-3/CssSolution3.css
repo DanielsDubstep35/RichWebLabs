@@ -61,39 +61,11 @@
 
 #UserProfileImage {
     margin: auto;
-    width: 90%;
+    width: 95%;
     height: 200px;
 }
 
-#UserProfileName {
-    font-size: 16px;
-    font-weight: bold;
-    border-top: 1px solid black;
-    padding: 16px;
-}
-
-#UserProfileUsername {
-    font-size: 16px;
-    font-weight: bold;
-    border-top: 1px solid black;
-    padding: 16px;
-}
-
-#UserProfileEmail {
-    font-size: 16px;
-    font-weight: bold;
-    border-top: 1px solid black;
-    padding: 16px;
-}
-
-#UserProfileLocation {
-    font-size: 16px;
-    font-weight: bold;
-    border-top: 1px solid black;
-    padding: 16px;
-}
-
-#UserProfileNumberOfGists {
+#UserProfileName, #UserProfileUsername, #UserProfileEmail, #UserProfileLocation, #UserProfileNumberOfGists {
     font-size: 16px;
     font-weight: bold;
     border-top: 1px solid black;
@@ -145,4 +117,81 @@
     font-size: 16px;
     font-weight: bold;
     padding: 4px;
+}
+
+/* When the browser is at least 960px and above */
+@media screen and (max-width: 960px) {
+    .colTwo {
+        grid-template-columns: repeat(2, 2fr);
+    }
+    .rowOne {
+        grid-template-rows: repeat(2, 2fr);
+    }
+}
+
+/* When the browser is at least 960px and above */
+@media screen and (max-width: 640px) {
+    #UserInformation {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+    #UserProfile {
+        display: flex;
+        justify-content: center;
+    }
+    #UserProfileTitle {
+        display: flex;
+        margin: auto;
+    }
+
+    #UserRepositories {
+        display: flex;
+    }
+
+    #UserRepositoryTitle {
+        display: flex;
+        margin: auto;
+    }
+
+    #UserProfileHolder {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #UserRepositoriesHolder {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #UserProfileImageHolder {
+        display: flex;
+        margin: 8px;
+        border: solid 1px black;
+        border-radius: 12px;
+    }
+    #UserProfileImage {
+        margin: auto;
+        width: 95%;
+        height: 200px;
+    }
+
+    #UserProfileName, #UserProfileUsername, #UserProfileEmail, #UserProfileLocation, #UserProfileNumberOfGists {
+        justify-content: center;
+        margin: 8px;
+        border-left: solid 1px black;
+        border-right: solid 1px black;
+        border-bottom: solid 1px black;
+    }
+
+    #TopBarButton {
+        width: 20%;
+        padding: 4px;
+        background-color: white;
+        border: solid 1px black;
+        border-radius: 16px;
+        font-size: small;
+        font-weight: bold;
+    }
 }
