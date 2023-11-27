@@ -1,0 +1,47 @@
+.colTwo {
+    margin: 16px;
+    padding: 16px;
+    display: grid;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(219, 219, 219);
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.rowOne {
+    margin: 16px;
+    padding: 16px;
+    display: grid;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(130, 130, 130);
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    grid-template-rows: repeat(4, 1fr);
+    flex-wrap: wrap;
+}
+
+/* When the browser is at least 960px and above */
+@media screen and (max-width: 960px) {
+    .colTwo {
+        grid-template-columns: repeat(2, 2fr);
+    }
+    .rowOne {
+        grid-template-rows: repeat(2, 2fr);
+    }
+}
+
+/* When the browser is at least 960px and above */
+@media screen and (max-width: 640px) {
+    .colTwo {
+        grid-template-columns: repeat(1, 4fr);
+    }
+    .rowOne {
+        grid-template-rows: repeat(1, 4fr);
+    }
+}
