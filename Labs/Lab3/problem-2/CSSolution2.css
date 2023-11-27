@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+}
+
+#AppTimer {
+    background: #DDDDDD;
+}
+
+#TimerSet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 16px;
+    font-size: 80px;
+}
+
+#TimerButton {
+    background: white;
+    width: fit-content;
+    border-radius: 8px;
+    padding: 16px;
+    outline: none;
+    border: white;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+#TimerButtonSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 16px;
+}
+
+#TimeCountdown {
+    display: none;
+    flex-direction: row;
+    background: #EEEEEE;
+    justify-content: center;
+    padding: 16px;
+    font-size: 120px;
+}
+
+.TimerSetNumber {
+    font-size: 80px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 8px;
+    border: white;
+    outline: none;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+.TimerSetDecorator {
+    font-size: 90px;
+}
+
+.TimeSeparators {
+    align-self: center;
+}
+
+.material-icons {
+    font-size: 12px;
+    align-self: center;
+}

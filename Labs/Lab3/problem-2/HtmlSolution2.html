@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="CSSolution2.css">
+    <script src="https://unpkg.com/rxjs@^7/dist/bundles/rxjs.umd.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution 2</title>
+</head>
+
+<body>
+    <div id="AppTimer">
+        <div id="TimerSet">
+            <input id="HoursInput" type="text" inputmode="numeric" autocomplete="off" spellcheck="false" maxlength="2" min="0" max="59" size="1" placeholder="h" value="" class="TimerSetNumber">
+            <span class="TimerSetDecorator">:</span>
+            <input id="MinutesInput" type="text" inputmode="numeric" autocomplete="off" spellcheck="false" maxlength="2" min="0" max="59" size="1" placeholder="m" value="" class="TimerSetNumber">
+            <span class="TimerSetDecorator">:</span>
+            <input id="SecondsInput" type="text" inputmode="numeric" autocomplete="off" spellcheck="false" maxlength="2" min="0" max="59" size="1" placeholder="s" value="" class="TimerSetNumber">
+        </div>
+        <div id="TimerButtonSection">
+            <button id="TimerButton">
+                <icon class="material-icons">play_arrow</icon>
+                <span id="StartButton">START COUNTDOWN</span>
+            </button>
+        </div>
+        <div id="TimeCountdown">
+            <p id="TimeHours">00</p>
+            <span class="TimeSeparators">:</span>
+            <p id="TimeMinutes">00</p>
+            <span class="TimeSeparators">:</span>
+            <p id="TimeSeconds">00</p>
+        </div>
+    </div>
+
+    <script type="module" src="./JsSolution2.js"></script>
+</body>
+
+</html>
